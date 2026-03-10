@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
-import "./Login.css"; // We can reuse your existing login styles!
+import "./login.css"; // We can reuse your existing login styles!
 
 function Signup() {
   const [form, setForm] = useState({ name: "", email: "", password: "" });
