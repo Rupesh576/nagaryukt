@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import './Landing.css'; // Reusing your beautiful new styles!
+import './landing.css'; // Reusing your beautiful new styles!
 
 function PublicInfo() {
   const location = useLocation();
